@@ -152,6 +152,15 @@ GEM
     mime-types (2.4.3)
     mini_magick (4.0.3)
     minitest (5.5.1)
+    monetize (1.1.0)
+      money (~> 6.5.0)
+    money (6.5.1)
+      i18n (>= 0.6.4, <= 0.7.0)
+    money-rails (1.4.1)
+      activesupport (>= 3.0)
+      monetize (~> 1.1.0)
+      money (~> 6.5.0)
+      railties (>= 3.0)
     mongoid (4.0.1)
       activemodel (~> 4.0)
       moped (~> 2.0.0)
@@ -270,6 +279,7 @@ DEPENDENCIES
   faker
   hipchat (~> 1.2.0)
   json
+  money-rails
   pry
   quiet_assets
   rabl
