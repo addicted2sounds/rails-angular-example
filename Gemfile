@@ -28,4 +28,6 @@ group :development do
 	gem 'quiet_assets', group: :development
 	gem 'pry'
 	gem 'spring'
+  gem 'database_cleaner'
+  gem 'faker'
 end
