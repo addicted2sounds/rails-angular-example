@@ -11,7 +11,7 @@ namespace :db do
       product = Product.create(
                  name: Faker::Commerce.product_name,
                  description: Faker::Lorem.paragraph,
-                 price: Money.new(Faker::Commerce.price)
+                 price: Faker::Commerce.price
       )
       puts "Added #{product.name}"
     end
