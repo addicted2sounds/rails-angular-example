@@ -1,5 +1,5 @@
 app.factory 'Product', ['AppModel', (AppModel) ->
 
-  class User extends AppModel
+  class Product extends AppModel
     @configure url: '/products', name: 'products'
 ]
