@@ -1,2 +1,2 @@
 object @products
-extends 'api/users/show.json'
+extends 'api/products/show.json'
