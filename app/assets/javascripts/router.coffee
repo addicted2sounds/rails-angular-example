@@ -9,10 +9,14 @@ app.config([
       templateUrl: 'layouts/index.html',
       controller: 'layout'
 
-    .state 'public.index',
+    .state 'public.products',
       url: '/',
       templateUrl: 'views/products.html'
       controller: 'index'
+    .state 'public.product',
+      url: '/:alias',
+      templateUrl: 'views/product-detail.html',
+      controller: 'product'
 
     $urlRouterProvider.otherwise '/products'
 
