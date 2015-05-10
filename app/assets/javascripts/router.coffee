@@ -11,10 +11,10 @@ app.config([
 
     .state 'public.index',
       url: '/',
-      templateUrl: 'views/index.html'
+      templateUrl: 'views/products.html'
       controller: 'index'
 
-    $urlRouterProvider.otherwise '/'
+    $urlRouterProvider.otherwise '/products'
 
     $locationProvider.html5Mode
       enabled: true
