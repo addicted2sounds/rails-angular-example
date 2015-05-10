@@ -31,10 +31,13 @@ group :development do
 	gem 'quiet_assets', group: :development
 	gem 'pry'
 	gem 'spring'
+end
 
+group :test do
+	gem 'shoulda-matchers', require: false
 	gem 'rspec-rails'
 	gem 'capybara'
 	gem 'database_cleaner'
 	gem 'selenium-webdriver'
-  gem 'factory_girl_rails'
+	gem 'factory_girl_rails'
 end
