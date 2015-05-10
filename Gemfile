@@ -19,6 +19,7 @@ gem 'angular-rails-templates'
 gem 'angularjs-rails-resource'
 
 gem 'faker'
+gem 'money-rails'
 
 group :development do
 	gem 'capistrano', '3.2.1'
