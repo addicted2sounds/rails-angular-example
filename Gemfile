@@ -18,9 +18,6 @@ gem 'uglifier', '>= 1.3.0'
 gem 'angular-rails-templates'
 gem 'angularjs-rails-resource'
 
-#Additional
-gem 'money-rails'
-
 group :development do
 	gem 'capistrano', '3.2.1'
 	gem 'capistrano-rails', '~> 1.1'
@@ -31,6 +28,10 @@ group :development do
 	gem 'quiet_assets', group: :development
 	gem 'pry'
 	gem 'spring'
-  gem 'database_cleaner'
-  gem 'faker'
+
+	gem 'rspec-rails'
+	gem 'capybara'
+	gem 'database_cleaner'
+	gem 'selenium-webdriver'
+  gem 'factory_girl_rails'
 end

@@ -4,6 +4,6 @@
     "lodash": "latest",
     "angular": "latest",
     "angular-sanitize": "latest",
-    "angular-ui-router": "latest"
+    "angular-ui-router": "latest",
   }
 }
