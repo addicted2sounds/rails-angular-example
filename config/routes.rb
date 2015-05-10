@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
 
+  get 'product/index'
+
   mount RademadeAdmin::Engine => '/admin'
   namespace :rademade_admin, path: '/admin' do
 
@@ -9,6 +11,7 @@ Rails.application.routes.draw do
 
   scope :api, module: :api, defaults: {format: :json} do
     resources :users, :only => [:index]
+    resources :products, only: [:index, :show]
   end
 
   scope :module => :public do
