@@ -33,11 +33,12 @@ group :development do
 	gem 'spring'
 end
 
-group :test do
+group :test, :development do
 	gem 'shoulda-matchers', require: false
 	gem 'rspec-rails'
 	gem 'capybara'
 	gem 'database_cleaner'
 	gem 'selenium-webdriver'
 	gem 'factory_girl_rails'
+  gem 'jasmine-rails'
 end
