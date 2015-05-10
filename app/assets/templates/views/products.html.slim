@@ -1,1 +1,5 @@
 h1 Products list
+ul.list-group.products
+  li.list-group-item data-ng-repeat="product in products"
+    span.badge = '{{ product.price | currency }}'
+    = '{{ product.name }}'
