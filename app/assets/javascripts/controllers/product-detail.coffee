@@ -1,4 +1,4 @@
-app.controller 'products', [ '$scope', 'Product', ($scope, Product) ->
-  Product.get().then (products)-> $scope.products = products
+app.controller 'ProductDetailCtrl', [ '$scope', '$stateParams', 'Product', ($scope, $stateParams, Product) ->
+  Product.get($stateParams.alias).then (product)-> $scope.product = product
 
 ]

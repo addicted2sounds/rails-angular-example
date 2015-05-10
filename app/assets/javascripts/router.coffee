@@ -12,12 +12,12 @@ app.config([
     .state 'public.products',
       url: '/',
       templateUrl: 'views/products.html'
-      controller: 'products'
+      controller: 'ProductListCtrl'
 
     .state 'public.product',
       url: '/:alias',
       templateUrl: 'views/product-detail.html',
-      controller: 'products'
+      controller: 'ProductDetailCtrl'
 
     $urlRouterProvider.otherwise '/products'
 
