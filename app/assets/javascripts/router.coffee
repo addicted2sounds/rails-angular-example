@@ -11,7 +11,7 @@ app.config([
 
     .state 'public.products',
       url: '/',
-      templateUrl: 'views/products.html'
+      templateUrl: 'views/product-list.html'
       controller: 'ProductListCtrl'
 
     .state 'public.product',
