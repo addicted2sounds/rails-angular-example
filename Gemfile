@@ -29,7 +29,7 @@ group :development do
 	gem 'hipchat', '~> 1.2.0'
 	gem 'rails-dev-tweaks'
 	gem 'quiet_assets', group: :development
-	gem 'pry'
+  gem 'pry-rails'
 	gem 'spring'
 end
 
