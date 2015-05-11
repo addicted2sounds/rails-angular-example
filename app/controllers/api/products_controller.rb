@@ -11,7 +11,7 @@ class Api::ProductsController < Api::ApplicationController
 
 private
   def set_product
-    @product = Product.find_by_name(params[:id])
+    @product = Product.find_by(alias: params[:id])
   end
 
   def product_params
