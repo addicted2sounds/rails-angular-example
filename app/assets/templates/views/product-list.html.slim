@@ -1,6 +1,6 @@
 h1 Products list
 bgf-pagination url='product_url' url-params='product_params' collection='products' per-page='10'
 ul.list-group.products
-  a.list-group-item data-ng-repeat='product in products' ng-href='/#/{{product.id}}' href='#'
+  a.list-group-item data-ng-repeat='product in products' ng-href='/#/{{product.alias}}' href='#'
     span.badge = '{{ product.price | currency }}'
     = '{{ product.name }}'
