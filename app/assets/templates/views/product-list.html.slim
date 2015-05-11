@@ -1,5 +1,5 @@
 h1 Products list
-bgf-pagination url='products_url' url-params='product_params' collection='products' per-page='10'
+bgf-pagination url='product_url' url-params='product_params' collection='products' per-page='10'
 ul.list-group.products
   a.list-group-item data-ng-repeat='product in products' ng-href='/#/{{product.id}}' href='#'
     span.badge = '{{ product.price | currency }}'

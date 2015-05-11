@@ -337,6 +337,7 @@ DEPENDENCIES
   hipchat (~> 1.2.0)
   jasmine-rails
   json
+  kaminari
   money-rails
   pg
   pry-rails
