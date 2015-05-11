@@ -206,6 +206,7 @@ GEM
     optionable (0.2.0)
     origin (2.1.1)
     orm_adapter (0.5.0)
+    pg (0.18.1)
     phantomjs (1.9.8.0)
     pry (0.10.1)
       coderay (~> 1.1.0)
@@ -337,6 +338,7 @@ DEPENDENCIES
   jasmine-rails
   json
   money-rails
+  pg
   pry-rails
   quiet_assets
   rabl
