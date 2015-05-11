@@ -1,2 +1,2 @@
 object @product
-attributes :id, :name, :description, :price, :alias
+attributes :id, :name, :description, :price
