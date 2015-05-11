@@ -2,7 +2,8 @@ source 'https://rubygems.org'
 
 gem 'rademade_admin', github: 'rademade/rademade_admin'
 
-gem 'sqlite3'
+gem 'sqlite3', group: [:development, :test]
+gem 'pg', group: :production
 
 gem 'json'
 gem 'rabl'
