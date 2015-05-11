@@ -1,9 +1,10 @@
 class Api::ProductsController < Api::ApplicationController
   respond_to :json
   before_action :set_product, only: [:show]
+  paginated_action only: [:index]
 
   def index
-    @products = Product.all
+    @products = Product.all.page(@kp_page).per(@kp_per_page)
   end
 
   def show
@@ -11,7 +12,7 @@ class Api::ProductsController < Api::ApplicationController
 
 private
   def set_product
-    @product = Product.find(params[:id])
+    @product = Product.find_by(alias: params[:id])
   end
 
   def product_params

@@ -21,6 +21,7 @@ gem 'angularjs-rails-resource'
 
 gem 'faker'
 gem 'money-rails'
+gem 'kaminari'
 
 group :development do
 	gem 'capistrano', '3.2.1'

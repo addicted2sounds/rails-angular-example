@@ -3,7 +3,8 @@ window.app = angular.module('app', [
   'templates',
   'rails',
   'ngSanitize',
-  'appResource'
+  'appResource',
+  'bgf.paginateAnything'
 ]).run [ "$rootScope", ($rootScope) ->
 
 ]
