@@ -1,5 +1,5 @@
 h1 Products list
 ul.list-group.products
-  a.list-group-item data-ng-repeat='product in products' href='#/{{product.id}}'
+  a.list-group-item data-ng-repeat='product in products' ng-href='/#/{{product.id}}' href='#'
     span.badge = '{{ product.price | currency }}'
     = '{{ product.name }}'
