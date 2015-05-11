@@ -43,3 +43,6 @@ group :test, :development do
 	gem 'factory_girl_rails'
   gem 'jasmine-rails'
 end
+
+# required for heroku
+gem 'rails_12factor', group: :production
