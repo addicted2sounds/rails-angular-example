@@ -13,7 +13,6 @@ class ApplicationController < ActionController::Base
         if request.headers['Range'] =~ /(\d+)-(\d*)/
           requested_from, requested_to = $1.to_i, ($2.present? ? $2.to_i : Float::INFINITY)
         end
-
         if requested_from > requested_to
           response.status = 416
           headers['Content-Range'] = "*/#{total_items}"
