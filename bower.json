@@ -3,6 +3,7 @@
   "dependencies": {
     "lodash": "latest",
     "angular": "latest",
+    "jquery-ui": "latest",
     "angular-sanitize": "latest",
     "angular-ui-router": "latest",
     "bootstrap-sass-official": "latest"
