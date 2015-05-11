@@ -19,7 +19,7 @@ app.config([
       templateUrl: 'views/product-detail.html',
       controller: 'ProductDetailCtrl'
 
-    $urlRouterProvider.otherwise '/products'
+    $urlRouterProvider.otherwise '/'
 
     $locationProvider.html5Mode
       enabled: true
