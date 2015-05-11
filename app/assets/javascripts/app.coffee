@@ -4,7 +4,7 @@ window.app = angular.module('app', [
   'rails',
   'ngSanitize',
   'appResource',
-#  'bgf.paginateAnything'
+  'bgf.paginateAnything'
 ]).run [ "$rootScope", ($rootScope) ->
 
 ]

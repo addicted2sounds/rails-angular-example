@@ -3,6 +3,7 @@
 #= require angular-rails-templates.js.erb
 #= require angularjs/rails/resource
 #= require angular-sanitize/angular-sanitize
+#= require angular-paginate-anything
 
 
 ## Libraries
